@@ -6,75 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+    
 </head>
 <body>
-    <div>
+    <div id="top">
         <img src="./img.png" width="80px";/>
         <input type="search" value="검색"/>
-    </div>   
+        <div>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+        </div> 
+    </div>  
     <div id="profile">
-        <img src="image/profile.jpg"width="80px";/>
-    </div>
-    <div>
-        <h2>hyun_bottle</h2>
-        <button>프로필 편집</button>
+        <div id="profile_pic">
+        <img src="image/profile.jpg" class="circle_pic"/>
+        </div>
+        <div id="profile_info">
+            <div id="id">
+                hyun_bottle
+                <i class="fas fa-cog"></i>
+            </div>
+            <button>프로필 편집</button>
+        </div>
     </div>
     <p><strong>김현이 (Hyunyi Kim)</strong><br/>
        작가
     </p>
     <p><a href="https://github.com/hyunyi7424">https://github.com/hyunyi7424</a></p>
-    <div>
+    <div id="hiLight_area">
         <div class="hiLight">
-            <div>
-                <img src="image/h1_1.jpg" height="30px";/>
+            <div class="hiLight_pic">
+                <img src="image/h1_1.jpg"  class="circle_pic"/>
             </div>
             <div>
                 😍
             </div>
         </div>
         <div class="hiLight">
-            <div>
-                <img src="image/h1_2.jpg" height="30px";/>
+            <div class="hiLight_pic">
+                <img src="image/h1_2.jpg"  class="circle_pic"/>
             </div>
             <div>
                 💖
             </div>
         </div>
         <div class="hiLight">
-            <div>
-                <img src="image/h1_3.jpg" height="30px";/>
+            <div class="hiLight_pic">
+                <img src="image/h1_3.jpg"  class="circle_pic"/>
             </div>
             <div>
                 🙌
             </div>
-        </div>         
+        </div> 
+        <div></div>        
     </div>
-    <div>
-        <div>게시물<br/>
+    <div id="stat_bar">
+        <div class="stat">게시물<br/>
              133
         </div>
-        <div>
+        <div class="stat">
             팔로워<br/>
             508
         </div>
-        <div>
+        <div class="stat">
             팔로우<br/>
             205
         </div>
     </div>
-
-    <div>아이콘이 들어갈 자리</div>
-
     <div>
-        <img src="image/thumbnails/1.jpg" width="32%"; />
-        <img src="image/thumbnails/2.jpg" width="32%";/>
-        <img src="image/thumbnails/3.jpg" width="32%";/>
-        <img src="image/thumbnails/4.jpg" width="32%";/>
-        <img src="image/thumbnails/5.jpg" width="32%";/>
-        <img src="image/thumbnails/6.jpg" width="32%";/>
-        <img src="image/thumbnails/7.jpg" width="32%";/>
-        <img src="image/thumbnails/8.jpg" width="32%";/>
-        <img src="image/thumbnails/9.jpg" width="32%";/>
+        <div class="thumbnail_grid">
+            <img src="image/thumbnails/1.jpg" width="32%"; />
+            <img src="image/thumbnails/2.jpg" width="32%";/>
+            <img src="image/thumbnails/3.jpg" width="32%";/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/thumbnails/4.jpg" width="32%";/>
+            <img src="image/thumbnails/5.jpg" width="32%";/>
+            <img src="image/thumbnails/6.jpg" width="32%";/>
+        </div>
+        <div class="thumbnail_grid">
+            <img src="image/thumbnails/7.jpg" width="32%";/>
+            <img src="image/thumbnails/8.jpg" width="32%";/>
+            <img src="image/thumbnails/9.jpg" width="32%";/>
+        </div>
+        <div id="sub_icon">
+            <div class="selected"><i class="fas fa-border-all"></i></div>
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="far fa-play-circle"></i></div>
+            <div><i class="far fa-bookmark"></i></div>
+            <div><i class="far fa-user-tag"></i></div>
+        </div>
 
     </div>
 </body>
