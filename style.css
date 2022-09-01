@@ -61,6 +61,7 @@ button{
     height:10vw;
     margin-left:auto;
     margin-right:auto;
+    
 }
 #hiLight_area{
     display: grid;
@@ -68,6 +69,7 @@ button{
 }
 .hiLight{
     text-align: center;
+    margin-right:auto;
 }
 #top{
     display:grid;
